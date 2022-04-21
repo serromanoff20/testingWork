@@ -50,6 +50,7 @@ AppAsset::register($this);
             ) : (
 //sergey++
                 '<li><a href="http://localhost:4200/">Angular</a></li>'
+                .'<li><a href="/site/geocoder">Geocoder</a></li>'
                 .'<li><a href="/site/myindex">LK</a></li>'
                 .'<li>'
                 . Html::beginForm(['/site/logout'], 'post')

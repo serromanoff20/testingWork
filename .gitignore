@@ -1,3 +1,11 @@
+#logs
+/web/access.log
+/web/error.log
+
+#git
+.git
+.gitignore
+
 # phpstorm project files
 .idea
 

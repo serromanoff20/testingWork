@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Geocoder;
 use app\models\MassiveData;
 use app\models\User;
 use app\models\notifications\Push;
@@ -26,10 +27,10 @@ class SiteController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout', 'check'],
+                'only' => ['logout', 'check', 'geocoder'],
                 'rules' => [
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['logout', 'geocoder'],
                         'allow' => true,
                         'roles' => ['@'], // logged users
                     ],
@@ -39,6 +40,7 @@ class SiteController extends Controller
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'logout' => ['post'],
+                    'geocoder' => ['get']
                 ],
             ],
         ];
@@ -180,6 +182,15 @@ class SiteController extends Controller
         $user->populateFieldsInDB();
 
         return $user;
+    }
+
+    public function actionGeocoder()
+    {
+        Yii::$app->response->format = Response::FORMAT_JSON;
+
+        $GC = new Geocoder();
+
+        return $GC->initFile();
     }
 
     // Запомнить конструкцию:

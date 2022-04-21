@@ -386,3 +386,127 @@ Stack trace:
 #3 [internal function]: yii\base\ErrorHandler->handleFatalError()
 #4 {main}
   thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 366" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/site/myindex"
+2022/04/12 14:48:10 [error] 13400#8656: *17102 FastCGI sent in stderr: "An Error occurred while handling" while reading upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
+2022/04/12 14:48:10 [error] 13400#8656: *17102 FastCGI sent in stderr: " another error:
+yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 27. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 27. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CLIENTNAME' => 'DESKTOP-DOM',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverDa
+2022/04/12 14:48:10 [error] 13400#8656: *17102 FastCGI sent in stderr: " => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => 'PHPSESSID=1cu0isvc47uf6ug8m9bufoodoe; _identity=d276dcbfd97ecc796e5d9cffed029217c18ab3d938f4882485d8eeaf12c1c283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A30%3A%22%5B%221003%22%2C%22test1003key%22%2C2592000%5D%22%3B%7D; _csrf=a282ca8ecb01247da6da17e06d7a97a89035691f44d761fa891ddd93465a88fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UqgaxTSTusvUAb7a-xFHj7Hg3ZELdwkC%22%3B%7D',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_CH_UA_PLATFORM' => '"Windows"',
+    'HTTP_SEC_CH_UA_MOBILE' => '?0',
+    'HTTP_SEC_CH_UA' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'localhost:8087',
+    'SCRIPT_FILENAME' => 'C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web//index.php',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'test',
+    'SERVER_PORT' => '8087',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52283',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.19.3',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REQUEST_SCHEME' => 'http',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web',
+    'DOCUMENT_URI' => '/index.php',
+    'REQUEST_URI' => '/site/geocoder',
+    'SCRIPT_NAME' =
+2022/04/12 17:11:10 [error] 13400#8656: *17189 FastCGI sent in stderr: "PHP Fatal error:  Allowed memory size of 2155872256 bytes exhausted (tried to allocate 2147483656 bytes) in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
+2022/04/12 17:13:31 [error] 13400#8656: *17203 FastCGI sent in stderr: "PHP Fatal error:  Allowed memory size of 2155872256 bytes exhausted (tried to allocate 2147483656 bytes) in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
+2022/04/12 17:23:37 [error] 13400#8656: *17224 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 63. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 63. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CLIENTNAME' => 'DESKTOP-DOM',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\s
+2022/04/12 17:23:37 [error] 13400#8656: *17224 FastCGI sent in stderr: "Users\\s.romanov\\OneDrive',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-7.4.15;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-7.4.15;',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'RDP-Tcp#88',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => 'PHPSESSID=1cu0isvc47uf6ug8m9bufoodoe; _identity=d276dcbfd97ecc796e5d9cffed029217c18ab3d938f4882485d8e
+2022/04/13 13:35:51 [error] 13400#8656: *17486 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 65" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
+2022/04/13 13:42:47 [error] 13400#8656: *17490 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 64" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
+2022/04/13 13:46:56 [error] 13400#8656: *17494 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
+2022/04/13 13:51:06 [error] 13400#8656: *17498 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 64" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
+2022/04/13 15:08:11 [error] 13400#8656: *17553 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 40" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
+2022/04/13 15:15:58 [error] 13400#8656: *17558 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
+2022/04/13 15:27:02 [error] 13400#8656: *17562 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
+2022/04/14 23:00:29 [error] 13400#8656: *17842 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 45" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087", referrer: "http://localhost:8087/"
