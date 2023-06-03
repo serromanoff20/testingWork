@@ -2,84 +2,67 @@
 
 namespace app\models;
 
-use app\models\MassiveData;
+use app\models\forms\LoginForm;
+use app\models\Goods;
+use yii\behaviors\TimestampBehavior;
+use yii\db\Connection;
 use yii\db\ActiveRecord;
+use yii\db\Expression;
 use \yii\web\IdentityInterface;
 use \yii\base\BaseObject;
 use yii;
 
-class User extends BaseObject implements IdentityInterface
+
+/**
+ * Class User
+ * @package app\models
+ *
+ * @property integer $id
+ * @property string $username
+ * @property string $password
+ * @property string $access_token
+ * @property string $email
+ * @property integer $role
+ * @property string user_ip
+ * @property integer edited_at
+ * @property TimestampBehavior last_login
+ * @property integer created_at
+ */
+class User extends ActiveRecord implements IdentityInterface
 {
-    public $id;
-    public $username;
-    public $password;
-    public $authKey;
-    public $accessToken;
-    public $ipUsr;
-    public $loginDate;
-    public $push;
-    public $phone;
+    public const SCENARIO_CREATE = 'create';
 
-    /**
-     * @param integer $id
-     */
-    public function setId($id)
+    public const SCENARIO_CHECK = 'check';
+
+    public static function getDb(): Connection
     {
-        $this->id = $id;
+        return Yii::$app->getDb();
     }
-    /**
-     * @return integer
-     */
-    public function getId()
+
+    public static function tableName(): string
     {
-        return $this->id;
+        return 'testingWorkUsers';
     }
 
     /**
-     * @param string $username
+     * @inheritdoc
      */
-    public function setUsername($username)
+    public function behaviors(): array
     {
-        $this->username = $username;
+        return [
+            'timestamp' => [
+                'class' => TimestampBehavior::class,
+                'createdAtAttribute' => 'created_at',
+                'updatedAtAttribute' => 'edited_at'
+            ]
+        ];
     }
 
-    /**
-     * @return string
-     */
-    public function getAuthKey()
+    public static function listUsers()
     {
-        return $this->authKey;
+        return self::find()->asArray()->all();
     }
 
-    /**
-     * @param string
-     * @return string|bool
-     */
-    public function validateIpUsr($ipUsr)
-    {
-        return $this->ipUsr === $ipUsr;
-    }
-
-    /**
-     * {@inheritdoc}
-     * @param string
-     * @return string|bool
-     */
-    public function validateAuthKey($authKey)
-    {
-        if (empty($this->authKey)){
-            return $this->authKey === $authKey;
-        } else {
-            $user = new MassiveData();
-            if ($this->authKey === $user->authKey){
-                return $this->authKey;
-            } else {
-                return 'ключ авторизации разный' ;
-            }
-        }
-    }
-
-//Используется в LoginForm. Идёт проверка на валидность пароля.
     public function validatePassword($password)
     {
         if (!empty($this->password)){
@@ -93,30 +76,31 @@ class User extends BaseObject implements IdentityInterface
      * Identity user by id
      * {@inheritdoc}
      */
-    public static function findIdentity($id)
+    public static function findIdentity($id): ?User
     {
-        $user = MassiveData::findById($id);
-        return isset($user) ? new static($user) : null;
+        $user = self::findById($id);
+        return (!!$user) ? new static($user) : null;
     }
 
     /**
      * Generates access token
      * @return string
+     * @throws yii\base\Exception
      */
-    public function generateAccessToken()
+    public function generateAccessToken(): string
     {
-        return $this->accessToken = Yii::$app->security->generateRandomString(128);
+        return $this->access_token = Yii::$app->security->generateRandomString(128);
     }
 
     /**
      * Identity user by Access token`s (SETTING IS NOT USED)
      * {@inheritdoc}
      */
-    public static function findIdentityByAccessToken($token, $type = null)
+    public static function findIdentityByAccessToken($token, $type = null): ?User
     {
-        $records = MassiveData::resultTableUsers();
+        $records = self::listUsers();
         foreach ($records as $record) {
-            if ($record['accessToken'] === $token) {
+            if ($record['access_token'] === $token) {
                 return new static($record);
             }
         }
@@ -124,72 +108,91 @@ class User extends BaseObject implements IdentityInterface
     }
 
     /**
-     * Finds user by username
+     * Validate user by Access token`s
+     * @param string $token
+     * @return bool
+     */
+    public function validateUserByAccessToken(string $token): bool
+    {
+        $user = self::findIdentity(Yii::$app->user->id);
+        if ($user->access_token === $token) {
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * Find user by username
      *
      * @param string $username
      * @return static|null
      */
-//Идентификация пользюка по username (используется при входе)
-    public static function findByUsername($username)
+    public static function findByUsername($username): ?ActiveRecord
     {
-        $records = MassiveData::resultTableUsers();
-        foreach ($records as $record) {
-            if (strcasecmp($record['username'], $username) === 0) {
-                return new static($record);
-            }
-        }
-        return null;
-    }
-
-    public static function findByUsernameTest($username){
-        $records = MassiveData::resultTableUsers();
-        foreach ($records as $record) {
-            if (strcasecmp($record['username'], $username) === 0) {
-                return new static($record);
-            }
-        }
-        return null;
+        return self::findOne(['username' => $username]);
     }
 
     /**
-     * @return mixed
+     * Find user by id
+     *
+     * @param $id
+     * @return ActiveRecord|null
      */
-//Берёт поле loginDate и преобразует в норм формат
-    public static function getLoginDate()
+    public static function findById($id): ?ActiveRecord
     {
-        $id = Yii::$app->user->id;
-
-        $recLogDate = MassiveData::getLoginDate($id);
-
-        return $recLogDate;
+        return self::findOne(['id' => $id]);
     }
 
     /**
-     * Populate model User from DB
-     * @return bool
+     * @param $pass
+     * @throws yii\base\Exception
      */
-//Если поля в БД пустые, они заполняются
-    public function populateFieldsInDB(){
-        if ($this->id === Yii::$app->user->id){
-            return true;
-        } else {
-            $token = $this->generateAccessToken();
-
-            $user = MassiveData::populateDB(Yii::$app->user->id, $token, Yii::$app->request->userIP);
-
-            $this->id = Yii::$app->user->id;
-            $this->username = $user->username;
-            $this->password = $user->password;
-            $this->authKey = $user->authKey;
-            $this->ipUsr = $user->ipUsr;
-            $this->loginDate = $user->loginDate;
-            $this->push = $user->push;
-            $this->phone = $user->phone;
-
-            return true;
-        }
+    public function generatedHashPass($pass): void
+    {
+        $this->password = Yii::$app->security->generatePasswordHash($pass);
     }
 
+    /**
+     * (SETTING IS NOT USED)
+     * @return int|string
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
 
+    /**
+     * (SETTING and PROPERTY IS NOT USED)
+     * @return mixed|string|null
+     */
+    public function getAuthKey()
+    {
+        return $this->authKey;
+    }
 
+    /**
+     * (SETTING and PROPERTY IS NOT USED)
+     * @param string $authKey
+     * @return bool|void
+     */
+    public function validateAuthKey($authKey)
+    {
+        // TODO: Implement validateAuthKey() method.
+    }
+
+    public function logout($access_token): array
+    {
+        $user = $this->findById(Yii::$app->user->id);
+
+        $accessTokenOfUser = $this->findIdentityByAccessToken($access_token);
+
+        if ($user->access_token === $accessTokenOfUser->access_token) {
+            Yii::$app->user->logout();
+
+            return [$user];
+        }
+        $this->addError('', 'Need input "access-token" property in headers OR input token not find');
+
+        return [];
+    }
 }

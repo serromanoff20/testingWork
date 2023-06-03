@@ -6,7 +6,7 @@
 
 use yii\helpers\Html;
 use app\models\User;
-use app\models\MassiveData;
+use app\models\Goods;
 
 $this->title = Yii::$app->user->identity->username;
 $this->params['breadcrumbs'][] = $this->title;

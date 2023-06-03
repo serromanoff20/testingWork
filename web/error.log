@@ -1,405 +1,16 @@
-2021/01/14 16:12:18 [error] 2428#9560: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
-2021/01/14 16:16:43 [error] 264#11856: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
-2021/01/22 17:28:34 [error] 5800#1416: *2 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/01/22 17:29:13 [error] 5800#1416: *2 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/01/22 17:34:21 [error] 5800#1416: *18 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/01/22 17:34:24 [error] 5800#1416: *18 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/angular/dist/angular/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /angular/dist/angular/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/01/22 17:36:18 [error] 5800#1416: *30 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/01/22 17:43:32 [error] 5800#1416: *35 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/01/22 17:43:35 [error] 5800#1416: *35 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/angular/dist/angular/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /angular/dist/angular/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/01/22 17:45:02 [error] 5800#1416: *35 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/01/22 17:45:06 [error] 5800#1416: *35 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/angular/dist/angular/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /angular/dist/angular/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/01/22 17:54:50 [error] 5800#1416: *72 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/angular/dist/angular/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /angular/dist/angular/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/01/22 17:55:25 [error] 5800#1416: *72 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/01/22 17:55:30 [error] 5800#1416: *72 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/angular/dist/angular/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /angular/dist/angular/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/01/22 17:55:37 [error] 5800#1416: *72 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/angular/dist/angular/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /angular/dist/angular/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/site/myindex"
-2021/01/24 22:37:42 [error] 4108#10232: *90 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/01/25 13:39:36 [error] 4108#10232: *97 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/02/05 13:00:28 [error] 11900#4416: *5337 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/site/myindex"
-2021/02/17 17:28:24 [error] 2348#12508: *773 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/site/myindex"
-2021/02/17 17:39:55 [error] 2348#12508: *781 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/site/myindex"
-2021/02/17 17:46:55 [error] 2348#12508: *796 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/site/myindex"
-2021/03/22 09:30:10 [error] 4260#4384: *853 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8081"
-2021/03/22 11:16:01 [error] 4260#4384: *1675 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /site/password-encryption HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/site/myindex"
-2021/03/22 11:16:07 [error] 4260#4384: *1675 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /site/myindex HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/03/22 11:18:13 [error] 4260#4384: *1680 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/03/22 11:18:16 [error] 4260#4384: *1680 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/03/25 10:07:12 [error] 5756#8620: *1 FastCGI sent in stderr: "PHP Warning:  require(C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php): failed to open stream: No such file or directory in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7
-PHP Fatal error:  require(): Failed opening required 'C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/03/25 10:07:18 [error] 5756#8620: *1 FastCGI sent in stderr: "PHP Warning:  require(C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php): failed to open stream: No such file or directory in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7
-PHP Fatal error:  require(): Failed opening required 'C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/03/25 10:08:05 [error] 5756#8620: *1 FastCGI sent in stderr: "PHP Warning:  require(C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php): failed to open stream: No such file or directory in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7
-PHP Fatal error:  require(): Failed opening required 'C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/03/25 10:08:05 [error] 5756#8620: *1 FastCGI sent in stderr: "PHP Warning:  require(C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php): failed to open stream: No such file or directory in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7
-PHP Fatal error:  require(): Failed opening required 'C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/03/25 10:08:07 [error] 5756#8620: *1 FastCGI sent in stderr: "PHP Warning:  require(C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php): failed to open stream: No such file or directory in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7
-PHP Fatal error:  require(): Failed opening required 'C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/03/25 10:09:13 [error] 5756#8620: *1 FastCGI sent in stderr: "PHP Warning:  require(C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php): failed to open stream: No such file or directory in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7
-PHP Fatal error:  require(): Failed opening required 'C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web/../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/03/25 11:21:20 [error] 5756#8620: *318 FastCGI sent in stderr: "PHP Fatal error:  Class app\models\User contains 3 abstract methods and must therefore be declared abstract or implement the remaining methods (yii\web\IdentityInterface::getId, yii\web\IdentityInterface::getAuthKey, yii\web\IdentityInterface::validateAuthKey) in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\User.php on line 9" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /site/myindex HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/03/25 13:46:12 [error] 5756#8620: *834 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /angular/dist/angular/vendor.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/03/25 13:46:13 [error] 5756#8620: *834 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /angular/dist/angular/main.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/03/25 13:46:13 [error] 5756#8620: *840 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /debug/default/toolbar?tag=605c5be3dddd2 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/03/25 13:46:15 [error] 5756#8620: *843 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /site/user-base HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:4200/"
-2021/03/25 13:46:20 [error] 5756#8620: *845 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /site/user-base HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:4200/"
-2021/03/25 13:46:22 [error] 5756#8620: *840 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:4200/"
-2021/06/03 12:09:25 [error] 4516#8224: *35 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/data_fr_form/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /data_fr_form/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/06/09 17:35:56 [error] 12908#14436: *514 FastCGI sent in stderr: "An Error occurred while handling another error:
-yii\base\UnknownPropertyException: Getting unknown property: app\controllers\SiteController::serializer in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Component.php:154
+2023/05/25 23:36:39 [error] 12696#17428: *150 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
 Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\controllers\SiteController.php(259): yii\base\Component->__get('serializer')
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /site/check HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/06/09 17:35:56 [error] 12908#14436: *514 FastCGI sent in stderr: "controllers\SiteController.php(251): app\controllers\SiteController->serializeData(Array)
-#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php(182): app\controllers\SiteController->afterAction(Object(yii\web\ErrorAction), '<!DOCTYPE html>...')
-#3 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#4 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction('site/error')
-#5 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
-#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
-#7 {main}
-Previous exception:
-yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\filters\AccessControl.php:158
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\filters\AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
-#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
-#3 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
-#4 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php(299): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
-#5 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Controller.php(200): yii\base\Controll
-2021/06/09 17:35:56 [error] 12908#14436: *514 FastCGI sent in stderr: "\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php7.3.5;',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
-    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
-    'PROCESSOR_ARCHITECTURE' => 'AMD64',
-    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
-    'PROCESSOR_LEVEL' => '6',
-    'PROCESSOR_REVISION' => '9e0b',
-    'ProgramData' => 'C:\\ProgramData',
-    'ProgramFiles' => 'C:\\Program Files',
-    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
-    'ProgramW6432' => 'C:\\Program Files',
-    'PROMPT' => '$P$G',
-    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
-    'PUBLIC' => 'C:\\Users\\Public',
-    'SESSIONNAME' => 'Console',
-    'SystemDrive' => 'C:',
-    'SystemRoot' => 'C:\\Windows',
-    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
-    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
-    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
-    'USERDOMAIN' => 'SARPLAT',
-    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
-    'USERNAME' => 's.romanov',
-    'USERPROFILE' => 'C:\\Users\\s.romanov',
-    'windir' => 'C:\\Windows',
-    'HTTP_COOKIE' => 'PHPSESSID=l0q1i85qtcrfd5g7sb27h6n4q3; _identity=57aad4a1d77c2b04592806b6a070b58f14243c3056ab990512e87bfd73acb5ffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A30%3A%22%5B%221002%22%2C%22test1002key%22%2C2592000%5D%22%3B%7D; _csrf=d7c7d1580df7fd297056976ac26e760b2320d91b9fff5b84b0a8c992de1ed9d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oBKVebbUjD6t8eDZ_j5f39ndnYLmul3z%22%3B%7D',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
-    'HTTP_SEC_FETCH_DEST' => 'document',
-    'HT
-2021/06/09 17:36:43 [error] 12908#14436: *514 FastCGI sent in stderr: "An Error occurred while handling another error:
-yii\base\UnknownPropertyException: Getting unknown property: app\controllers\SiteController::serializer in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Component.php:154
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\controllers\SiteController.php(259): yii\base\Component->__get('serializer')
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /site/check HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/06/09 17:36:43 [error] 12908#14436: *514 FastCGI sent in stderr: "controllers\SiteController.php(251): app\controllers\SiteController->serializeData(Array)
-#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php(182): app\controllers\SiteController->afterAction(Object(yii\web\ErrorAction), '<!DOCTYPE html>...')
-#3 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#4 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction('site/error')
-#5 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
-#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
-#7 {main}
-Previous exception:
-yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\filters\AccessControl.php:158
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\filters\AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
-#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
-#3 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
-#4 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php(299): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
-#5 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Controller.php(200): yii\base\Controll
-2021/06/09 17:36:43 [error] 12908#14436: *514 FastCGI sent in stderr: "\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php7.3.5;',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
-    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
-    'PROCESSOR_ARCHITECTURE' => 'AMD64',
-    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
-    'PROCESSOR_LEVEL' => '6',
-    'PROCESSOR_REVISION' => '9e0b',
-    'ProgramData' => 'C:\\ProgramData',
-    'ProgramFiles' => 'C:\\Program Files',
-    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
-    'ProgramW6432' => 'C:\\Program Files',
-    'PROMPT' => '$P$G',
-    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
-    'PUBLIC' => 'C:\\Users\\Public',
-    'SESSIONNAME' => 'Console',
-    'SystemDrive' => 'C:',
-    'SystemRoot' => 'C:\\Windows',
-    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
-    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
-    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
-    'USERDOMAIN' => 'SARPLAT',
-    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
-    'USERNAME' => 's.romanov',
-    'USERPROFILE' => 'C:\\Users\\s.romanov',
-    'windir' => 'C:\\Windows',
-    'HTTP_COOKIE' => 'PHPSESSID=l0q1i85qtcrfd5g7sb27h6n4q3; _identity=57aad4a1d77c2b04592806b6a070b58f14243c3056ab990512e87bfd73acb5ffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A30%3A%22%5B%221002%22%2C%22test1002key%22%2C2592000%5D%22%3B%7D; _csrf=d7c7d1580df7fd297056976ac26e760b2320d91b9fff5b84b0a8c992de1ed9d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oBKVebbUjD6t8eDZ_j5f39ndnYLmul3z%22%3B%7D',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
-    'HTTP_SEC_FETCH_DEST' => 'document',
-    'HT
-2021/06/10 16:10:52 [error] 12908#14436: *979 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/06/11 15:55:32 [error] 8496#14528: *958 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /debug/default/toolbar?tag=60c34f3415a1d HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/find"
-2021/06/11 16:03:56 [error] 8496#14528: *961 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /find HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/find"
-2021/08/16 11:13:47 [error] 6408#3940: *145 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /site/myindex HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/23 15:12:59 [error] 6408#3940: *1168 FastCGI sent in stderr: "PHP Fatal error:  Uncaught yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 430. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
-#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(288): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
-#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
-#4 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 366" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /site/myindex HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/23 16:57:26 [error] 6408#3940: *1472 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\new\index.php:17
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\new\index.php on line 17" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /new/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/23 17:12:29 [error] 6408#3940: *1514 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/23 17:13:52 [error] 6408#3940: *1518 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'BrowserDetector\src\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/23 17:17:16 [error] 6408#3940: *1540 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'app\web\newDirectory\UserAgent' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:93
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php(320): app\web\newDirectory\Browser->__construct()
-#1 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 93" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/23 17:17:34 [error] 6408#3940: *1540 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'UserAgent' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:93
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php(320): Browser->__construct()
-#1 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 93" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/23 17:17:47 [error] 6408#3940: *1540 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'BrowserDetector' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:121
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php(321): Browser->getName()
-#1 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 121" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:18:45 [error] 11128#5480: *216 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:19:11 [error] 11128#5480: *216 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:22:57 [error] 20640#20996: *18 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:23:26 [error] 20640#20996: *18 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:25:23 [error] 18700#4980: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 430. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
-#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(288): yii\web\ErrorHandler->renderException()
-#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
-#4 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 366" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:25:33 [error] 18700#4980: *28 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:25:38 [error] 18700#4980: *28 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:25:38 [error] 18700#4980: *28 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:25:38 [error] 18700#4980: *28 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:25:38 [error] 18700#4980: *28 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:25:39 [error] 18700#4980: *28 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:25:39 [error] 18700#4980: *28 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:25:39 [error] 18700#4980: *28 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:25:53 [error] 18700#4980: *28 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:29:59 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:30:10 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:28 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:31 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:45 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:46 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:47 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:49 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:49 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:49 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:49 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:49 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:51 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:52 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:52 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:52 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:52 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:30:52 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/?v=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:31:13 [error] 18700#4980: *50 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:34:48 [error] 10264#12896: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/08/25 10:36:27 [error] 1576#19900: *21 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:38:20 [error] 16192#1688: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 430. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
-#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(288): yii\web\ErrorHandler->renderException()
-#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
-#4 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 366" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/08/25 10:38:26 [error] 16192#1688: *10 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:41:42 [error] 16192#1688: *15 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 10:50:06 [error] 10280#19908: *20 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/25 11:03:55 [error] 10280#19908: *24 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class 'Sinergi\BrowserDetector\Browser' not found in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php:7
-Stack trace:
-#0 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\newDirectory\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /newDirectory/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/27 09:21:32 [error] 10280#19908: *902 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/08/27 09:22:39 [error] 740#19588: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 430. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
-#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(288): yii\web\ErrorHandler->renderException()
-#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
-#4 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 366" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
-2021/09/06 15:28:25 [error] 6616#1248: *43 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081"
-2021/09/06 16:28:13 [error] 8056#11952: *30 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/09/06 16:28:17 [error] 8056#11952: *40 directory index of "C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web/pjt2/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /pjt2/ HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/about"
-2021/09/10 13:07:57 [error] 5280#16056: *143 FastCGI sent in stderr: "PHP Fatal error:  Uncaught yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 430. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
-#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(288): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
-#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
-#4 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 366" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/site/login"
-2021/09/10 15:58:49 [error] 5280#16056: *237 FastCGI sent in stderr: "PHP Fatal error:  Allowed memory size of 2155872256 bytes exhausted (tried to allocate 262144 bytes) in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\User.php on line 55
-PHP Fatal error:  Allowed memory size of 2155872256 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /site/test HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081"
-2021/09/10 16:17:13 [error] 5280#16056: *285 FastCGI sent in stderr: "PHP Fatal error:  Allowed memory size of 2155872256 bytes exhausted (tried to allocate 262144 bytes) in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\User.php on line 55
-PHP Fatal error:  Allowed memory size of 2155872256 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /site/login HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/site/login"
-2021/10/05 17:40:55 [error] 13240#1744: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/site/myindex"
-2021/10/05 17:41:04 [error] 13240#1744: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 430. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
-#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(288): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
-#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
-#4 {main}
-  thrown in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php on line 366" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8081", referrer: "http://localhost:8081/site/myindex"
-2022/04/12 14:48:10 [error] 13400#8656: *17102 FastCGI sent in stderr: "An Error occurred while handling" while reading upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
-2022/04/12 14:48:10 [error] 13400#8656: *17102 FastCGI sent in stderr: " another error:
-yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 27. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
-Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
 #2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
 #3 [internal function]: yii\base\ErrorHandler->handleException()
 #4 {main}
 Previous exception:
-yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 27. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
 Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
 #2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
 #3 {main}
 $_SERVER = [
@@ -407,36 +18,270 @@ $_SERVER = [
     'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
     'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
     'ChocolateyLastPathUpdate' => '132499874857772472',
-    'CLIENTNAME' => 'DESKTOP-DOM',
     'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
     'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
     'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
     'COMPUTERNAME' => 'PROGRAMMER4',
     'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
-    'DriverDa
-2022/04/12 14:48:10 [error] 13400#8656: *17102 FastCGI sent in stderr: " => 'C:\\Users\\s.romanov',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:36:39 [error] 12696#17428: *150 FastCGI sent in stderr: "m32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
     'windir' => 'C:\\Windows',
-    'HTTP_COOKIE' => 'PHPSESSID=1cu0isvc47uf6ug8m9bufoodoe; _identity=d276dcbfd97ecc796e5d9cffed029217c18ab3d938f4882485d8eeaf12c1c283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A30%3A%22%5B%221003%22%2C%22test1003key%22%2C2592000%5D%22%3B%7D; _csrf=a282ca8ecb01247da6da17e06d7a97a89035691f44d761fa891ddd93465a88fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UqgaxTSTusvUAb7a-xFHj7Hg3ZELdwkC%22%3B%7D',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
-    'HTTP_SEC_FETCH_DEST' => 'document',
-    'HTTP_SEC_FETCH_USER' => '?1',
-    'HTTP_SEC_FETCH_MODE' => 'navigate',
-    'HTTP_SEC_FETCH_SITE' => 'none',
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+    'HTTP_COOKIE' => 'PHPSESSID=6ajmfnpetub3g9mbc5bgmo75k9; _identity=718c2bb4ac8e1fab992558aee82743acf019f10661e60d05e0bcd
+2023/05/25 23:36:39 [error] 12696#17428: *152 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:36:39 [error] 12696#17428: *152 FastCGI sent in stderr: "m32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => 'PHPSESSID=6ajmfnpetub3g9mbc5bgmo75k9; _identity=718c2bb4ac8e1fab992558aee82743acf019f10661e60d05e0bcd
+2023/05/25 23:36:39 [error] 12696#17428: *153 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:36:39 [error] 12696#17428: *153 FastCGI sent in stderr: "m32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => 'PHPSESSID=6ajmfnpetub3g9mbc5bgmo75k9; _identity=718c2bb4ac8e1fab992558aee82743acf019f10661e60d05e0bcd
+2023/05/25 23:36:39 [error] 12696#17428: *150 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:36:39 [error] 12696#17428: *150 FastCGI sent in stderr: "m32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => 'PHPSESSID=6ajmfnpetub3g9mbc5bgmo75k9; _identity=718c2bb4ac8e1fab992558aee82743acf019f10661e60d05e0bcd
+2023/05/25 23:36:41 [error] 12696#17428: *152 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/logout in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#3 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE" while reading upstream, client: 127.0.0.1, server: localhost, request
+2023/05/25 23:36:41 [error] 12696#17428: *152 FastCGI sent in stderr: "' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\\AppData\\Local',
+    'LOGONSERVER' => '\\\\PDC',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'NVM_HOME' => 'C:\\Users\\s.romanov\\AppData\\Roaming\\nvm',
+    'NVM_SYMLINK' => 'C:\\Program Files\\nodejs',
+    'OneDrive' => 'C:\\Users\\s.romanov\\OneDrive',
+    'OneDriveConsumer' => 'C:\\Users\\s.romanov\\OneDrive',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' =>
+2023/05/25 23:36:41 [error] 12696#17428: *152 FastCGI sent in stderr: "0',
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'HTTP_ORIGIN' => 'http://localhost:8080',
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
     'HTTP_SEC_CH_UA_PLATFORM' => '"Windows"',
     'HTTP_SEC_CH_UA_MOBILE' => '?0',
-    'HTTP_SEC_CH_UA' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+    'HTTP_SEC_CH_UA' => '"Chromium";v="112", "Not_A Brand";v="24", "Opera";v="98"',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONTENT_LENGTH' => '0',
     'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_HOST' => 'localhost:8087',
+    'HTTP_HOST' => 'localhost:8080',
     'SCRIPT_FILENAME' => 'C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web//index.php',
     'REDIRECT_STATUS' => '200',
-    'SERVER_NAME' => 'test',
-    'SERVER_PORT' => '8087',
+    'SERVER_NAME' => 'localhost',
+    'SERVER_PORT' => '8080',
     'SERVER_ADDR' => '127.0.0.1',
-    'REMOTE_PORT' => '52283',
+    'REMOTE_PORT' => '63266',
     'REMOTE_ADDR' => '127.0.0.1',
     'SERVER_SOFTWARE' => 'nginx/1.19.3',
     'GATEWAY_INTERFACE' => 'CGI/1.1',
@@ -444,23 +289,30 @@ $_SERVER = [
     'SERVER_PROTOCOL' => 'HTTP/1.1',
     'DOCUMENT_ROOT' => 'C:/Users/s.romanov/Desktop/Romanov_S/basic/repository/web',
     'DOCUMENT_URI' => '/index.php',
-    'REQUEST_URI' => '/site/geocoder',
-    'SCRIPT_NAME' =
-2022/04/12 17:11:10 [error] 13400#8656: *17189 FastCGI sent in stderr: "PHP Fatal error:  Allowed memory size of 2155872256 bytes exhausted (tried to allocate 2147483656 bytes) in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
-2022/04/12 17:13:31 [error] 13400#8656: *17203 FastCGI sent in stderr: "PHP Fatal error:  Allowed memory size of 2155872256 bytes exhausted (tried to allocate 2147483656 bytes) in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
-2022/04/12 17:23:37 [error] 13400#8656: *17224 FastCGI sent in stderr: "An Error occurred while handling another error:
-yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 63. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
+    'REQUEST_URI' => '/site/logout',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '0',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1685043401.840198,
+    'REQUEST_TIME' => 1685043401,
+]" while reading upstream, client: 127.0.0.1, server: localhost, request: "POST /site/logout HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/05/25 23:37:21 [error] 12696#17428: *162 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
 Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(136): yii\web\Response->send()
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
 #2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
 #3 [internal function]: yii\base\ErrorHandler->handleException()
 #4 {main}
 Previous exception:
-yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 63. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php:366
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
 Stack trace:
-#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
-#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
 #2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
 #3 {main}
 $_SERVER = [
@@ -468,15 +320,16 @@ $_SERVER = [
     'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
     'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
     'ChocolateyLastPathUpdate' => '132499874857772472',
-    'CLIENTNAME' => 'DESKTOP-DOM',
     'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
     'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
     'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
     'COMPUTERNAME' => 'PROGRAMMER4',
-    'ComSpec' => 'C:\\Windows\\s
-2022/04/12 17:23:37 [error] 13400#8656: *17224 FastCGI sent in stderr: "Users\\s.romanov\\OneDrive',
-    'OS' => 'Windows_NT',
-    'Path' => 'C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-7.4.15;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-7.4.15;',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:37:21 [error] 12696#17428: *162 FastCGI sent in stderr: "m32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
     'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
     'PROCESSOR_ARCHITECTURE' => 'AMD64',
@@ -490,7 +343,7 @@ $_SERVER = [
     'PROMPT' => '$P$G',
     'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
     'PUBLIC' => 'C:\\Users\\Public',
-    'SESSIONNAME' => 'RDP-Tcp#88',
+    'SESSIONNAME' => 'Console',
     'SystemDrive' => 'C:',
     'SystemRoot' => 'C:\\Windows',
     'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
@@ -501,12 +354,389 @@ $_SERVER = [
     'USERNAME' => 's.romanov',
     'USERPROFILE' => 'C:\\Users\\s.romanov',
     'windir' => 'C:\\Windows',
-    'HTTP_COOKIE' => 'PHPSESSID=1cu0isvc47uf6ug8m9bufoodoe; _identity=d276dcbfd97ecc796e5d9cffed029217c18ab3d938f4882485d8e
-2022/04/13 13:35:51 [error] 13400#8656: *17486 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 65" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
-2022/04/13 13:42:47 [error] 13400#8656: *17490 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 64" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
-2022/04/13 13:46:56 [error] 13400#8656: *17494 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
-2022/04/13 13:51:06 [error] 13400#8656: *17498 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 64" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
-2022/04/13 15:08:11 [error] 13400#8656: *17553 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 40" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
-2022/04/13 15:15:58 [error] 13400#8656: *17558 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
-2022/04/13 15:27:02 [error] 13400#8656: *17562 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087"
-2022/04/14 23:00:29 [error] 13400#8656: *17842 FastCGI sent in stderr: "PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\models\Geocoder.php on line 45" while reading response header from upstream, client: 127.0.0.1, server: test, request: "GET /site/geocoder HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8087", referrer: "http://localhost:8087/"
+    'HTTP_COOKIE' => 'PHPSESSID=6ajmfnpetub3g9mbc5bgmo75k9; _identity=718c2bb4ac8e1fab992558aee82743acf019f10661e60d05e0bcd
+2023/05/25 23:37:21 [error] 12696#17428: *164 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:37:21 [error] 12696#17428: *164 FastCGI sent in stderr: "m32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => 'PHPSESSID=6ajmfnpetub3g9mbc5bgmo75k9; _identity=718c2bb4ac8e1fab992558aee82743acf019f10661e60d05e0bcd
+2023/05/25 23:37:21 [error] 12696#17428: *162 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:37:21 [error] 12696#17428: *162 FastCGI sent in stderr: "m32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => 'PHPSESSID=6ajmfnpetub3g9mbc5bgmo75k9; _identity=718c2bb4ac8e1fab992558aee82743acf019f10661e60d05e0bcd
+2023/05/25 23:37:21 [error] 12696#17428: *167 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:37:21 [error] 12696#17428: *167 FastCGI sent in stderr: "m32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => 'PHPSESSID=6ajmfnpetub3g9mbc5bgmo75k9; _identity=718c2bb4ac8e1fab992558aee82743acf019f10661e60d05e0bcd
+2023/05/25 23:37:23 [error] 12696#17428: *167 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:37:23 [error] 12696#17428: *167 FastCGI sent in stderr: "ta\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => '_csrf=c14bd9dd91e432bff5bc799247244adda488f3fe278d509cbd875cd1b51034cda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225wvELviOeSfOQtmAJlo83n4xjI
+2023/05/25 23:37:23 [error] 12696#17428: *162 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:37:23 [error] 12696#17428: *162 FastCGI sent in stderr: "ta\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => '_csrf=c14bd9dd91e432bff5bc799247244adda488f3fe278d509cbd875cd1b51034cda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225wvELviOeSfOQtmAJlo83n4xjI
+2023/05/25 23:37:23 [error] 12696#17428: *171 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:37:23 [error] 12696#17428: *171 FastCGI sent in stderr: "ta\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => '_csrf=c14bd9dd91e432bff5bc799247244adda488f3fe278d509cbd875cd1b51034cda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225wvELviOeSfOQtmAJlo83n4xjI
+2023/05/25 23:37:23 [error] 12696#17428: *172 FastCGI sent in stderr: "An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Page not found. in C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 C:\Users\s.romanov\Desktop\Romanov_S\basic\repository\web\index.php(13): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\s.romanov\\AppData\\Roaming',
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey',
+    'ChocolateyLastPathUpdate' => '132499874857772472',
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'PROGRAMMER4',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\s.romanov',
+    'LOCALAPPDATA' => 'C:\\Users\\s.romanov\
+2023/05/25 23:37:23 [error] 12696#17428: *172 FastCGI sent in stderr: "ta\\chocolatey\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\PHP\\php-8.1.7\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\\Users\\s.romanov\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;;C:\\Users\\s.romanov\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\PHP\\php-8.1.7\\composer\\;C:\\Users\\s.romanov\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\PHP\\php-8.1.7\\;C:\\Users\\s.romanov\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.3\\bin;',
+    'PROCESSOR_ARCHITECTURE' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 11, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '9e0b',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PROMPT' => '$P$G',
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\S4325~1.ROM\\AppData\\Local\\Temp',
+    'USERDNSDOMAIN' => 'SARPLAT.LOCAL',
+    'USERDOMAIN' => 'SARPLAT',
+    'USERDOMAIN_ROAMINGPROFILE' => 'SARPLAT',
+    'USERNAME' => 's.romanov',
+    'USERPROFILE' => 'C:\\Users\\s.romanov',
+    'windir' => 'C:\\Windows',
+    'HTTP_COOKIE' => '_csrf=c14bd9dd91e432bff5bc799247244adda488f3fe278d509cbd875cd1b51034cda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225wvELviOeSfOQtmAJlo83n4xjI

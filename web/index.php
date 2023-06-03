@@ -12,4 +12,12 @@ $config = require __DIR__ . '/../config/web.php';
 try {
     (new yii\web\Application($config))->run();
 } catch (\yii\base\InvalidConfigException $e) {
+
+    print_r([
+        'data' => $e,
+        'message' => 'Ошибка'
+    ]);
+//    Yii::$app->mailer->send(
+//
+//    );
 }
